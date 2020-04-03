@@ -11,6 +11,7 @@ pipeline {
                 sh 'pip install requests'
 				sh 'pwd && ls'
 				sh 'python app.py'
+				sh 'echo "End:)"'
             }
         }
     }
